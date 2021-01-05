@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 * {
   margin: 0;
@@ -13,9 +13,27 @@ html {
 body {
   height: 100vh;
   font-size: 1.6rem;
-  font-family: "roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.bg {
+  background: url("./img/brooke-cagle-WHWYBmtn3_0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(60px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
